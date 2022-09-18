@@ -196,6 +196,6 @@ export class GoalsPage implements OnInit {
     this.router.navigateByUrl('/music', {replaceUrl:true});
   }
   routeToSupport(){
-    this.router.navigateByUrl('/support', {replaceUrl:true});
+    this.router.navigateByUrl('https://wa.me/919930276758', {replaceUrl:true});
   }
 }

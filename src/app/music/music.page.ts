@@ -157,7 +157,7 @@ export class MusicPage implements OnInit {
     this.player.pause();
   }
   routeToSupport(){
-    this.router.navigateByUrl('/support', {replaceUrl:true});
+    this.router.navigateByUrl('https://wa.me/919930276758', {replaceUrl:true});
     this.player.pause();
   }
 

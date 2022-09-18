@@ -65,6 +65,6 @@ export class HomePage implements OnInit{
     this.navCtrl.navigateForward(['music'], {replaceUrl: true});
   }
   routeToSupport(){
-    this.navCtrl.navigateForward(['support'], {replaceUrl: true});
+    this.router.navigateByUrl('https://wa.me/919930276758')
   }
 }
