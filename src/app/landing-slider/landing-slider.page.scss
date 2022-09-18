@@ -1,0 +1,31 @@
+ion-slides {
+    height: 100%;
+}  
+.swiper-pagination-bullet {
+    background: #8DD8A7;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #4AB16C;
+    width: 20px;
+    border-radius: 25% !important;
+}
+p{
+    color: #63BE82;
+    font-size: 75%;
+    font-family: 'DM-Sans-Bold' !important;
+}
+h2
+{
+    color: #1E1E1E;
+    font-size: 200%;
+    font-family: 'DM-Sans-Bold' !important;
+}
+.rochester{
+    font-family: 'Rochester';
+}
+ion-icon{
+    color: #1E1E1E;
+}

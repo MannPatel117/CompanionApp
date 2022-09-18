@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "companion-mentalhealth-app": {
+      "hosting": {
+        "app": [
+          "companion-mentalhealth-app"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "companion-mentalhealth-app"
+  }
+}

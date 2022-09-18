@@ -25,3 +25,97 @@
 #container a {
   text-decoration: none;
 }
+
+
+ion-grid {
+  --ion-grid-padding: 25px;
+}
+
+.img-wrap {
+  border-radius: 20px;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 10px;
+}
+
+.goals {
+  height: 230px;
+
+  background-image: url("https://images.unsplash.com/photo-1618890334461-c33a04c4c916?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
+
+}
+
+.music {
+  height: 180px;
+  margin-top: 30px;
+  background-image: url("https://images.unsplash.com/photo-1604213410393-89f141bb96b8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+}
+.videos {
+  height: 120px;
+  background-image: url("https://images.unsplash.com/photo-1474267119072-677dd7959e96?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+}
+.blogs{
+  height: 240px;
+  margin-top: -20px;
+  background-image: url("https://images.unsplash.com/photo-1541362254971-29e9b6af8d05?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+}
+.support{
+  height: 150px;
+  background-image: url("https://images.unsplash.com/photo-1564500604132-ecfb1ffc57a7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
+}
+h2 {
+  margin-top: 10px;
+  text-align: center;
+  color: #1E1E1E;
+  font-size: 200%;
+}
+
+.img-wrap>h2 {
+  text-align: left;
+  font-family: 'DM-Sans-Bold' !important;
+  font-size: 120%;
+  color: white;
+  margin-left: 2px;
+  vertical-align: bottom;
+}
+
+.rochester {
+  font-family: 'Rochester';
+  font-size: 150%;
+}
+
+p {
+  color: #359253;
+  text-align: center;
+  font-family: 'DM-Sans-Bold' !important;
+}
+
+ion-toolbar {
+  --background: var(--primary);
+  --border-color: none;
+  --box-shadow: none;
+  --padding-top: 20px;
+  --padding-bottom: 25px;
+  --padding-end: 20px;
+  --padding-start: 20px;
+}
+
+ion-icon {
+  color: #359253;
+}
+ion-popover{
+  --background: none;
+  --box-shadow:none;
+}
+.logout{
+  color: #B2ECC4; 
+  margin-left: 5px;
+}
+.ion-margin-bottom{
+  color: #B2ECC4;
+}

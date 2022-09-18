@@ -1,0 +1,23 @@
+<ion-content>
+  <ion-slide>
+    <div class="slide">
+      <h2><span class="highlight">Login</span></h2>
+      <img src="../../assets/img/landing-3.png" />
+      <p>Welcome back to Companion<p>
+      <form [formGroup]="credentials" (ngSubmit)="login()">
+        <ion-item class="ion-margin-bottom">
+          <ion-input color="tertiary" type="email" placeholder="Email" formControlName="email"></ion-input>
+          <ion-note slot="error" *ngIf="(email.dirty || email.touched) && email.errors">Invalid Email</ion-note>
+        </ion-item>
+        <ion-item class="ion-margin-bottom">
+          <ion-input color="tertiary" type="password" placeholder="Password" formControlName="password"></ion-input>
+          <ion-note slot="error" *ngIf="(password.dirty || password.touched) && password.errors">Minimum 8 characters required</ion-note>
+        </ion-item>
+
+        <ion-button class="ion-margin-bottom" expand="block" shape="round" type="submit" [disabled]="!credentials.valid">Login</ion-button>
+        <a (click)="goToregister()"><p>Create Account</p></a>
+        <!-- <ion-button class="ion-margin-bottom" expand="block" shape="round" type="button" (click)="register()">Create Account</ion-button> -->
+      </form>  
+    </div>
+  </ion-slide>
+</ion-content>

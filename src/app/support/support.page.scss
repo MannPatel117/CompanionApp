@@ -1,0 +1,24 @@
+ion-toolbar {
+    --background: var(--primary);
+    --border-color: none;
+    --box-shadow: none;
+    --padding-top: 20px;
+    --padding-bottom: 25px;
+    --padding-end: 20px;
+    --padding-start: 20px;
+  }
+  
+  ion-icon {
+    color: #359253;
+  }
+  ion-popover{
+    --background: none;
+    --box-shadow:none;
+  }
+  .logout{
+    color: #B2ECC4; 
+    margin-left: 5px;
+  }
+  .ion-margin-bottom{
+    color: #B2ECC4;
+  }
